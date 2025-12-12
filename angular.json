@@ -7,13 +7,13 @@
       "projectType": "application",
       "schematics": {
         "@schematics/angular:component": {
-          "standalone": false
+          "standalone": true
         },
         "@schematics/angular:directive": {
-          "standalone": false
+          "standalone": true
         },
         "@schematics/angular:pipe": {
-          "standalone": false
+          "standalone": true
         }
       },
       "root": "",
@@ -31,7 +31,6 @@
             ],
             "tsConfig": "tsconfig.app.json",
             "assets": [
-              "src/favicon.ico",
               "src/assets"
             ],
             "styles": [
@@ -90,7 +89,6 @@
             ],
             "tsConfig": "tsconfig.spec.json",
             "assets": [
-              "src/favicon.ico",
               "src/assets"
             ],
             "styles": [
@@ -101,5 +99,8 @@
         }
       }
     }
+  },
+  "cli": {
+    "analytics": "441b8c29-030d-4625-9687-5e56d502d6ff"
   }
 }
