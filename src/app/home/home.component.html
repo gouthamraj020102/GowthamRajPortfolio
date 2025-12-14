@@ -1,0 +1,41 @@
+<div class="home-page">
+    <div class="profile">
+        <img src="assets/Gowtham.jpg" alt="Profile picture" class="profile-img">
+    </div>
+    <div class="intro">
+        <h1>Hi, I'm <span class="highlight-name">{{fullName}}</span></h1>
+        <p class="headline-text">{{headLine}}</p>
+        <div class="skills-container">
+            <div *ngFor="let skill of skills" class="skill-card">
+                <p>{{skill}}</p>
+            </div>
+        </div>
+        <div class="details-container">
+            <div *ngFor="let item of details" class="detail-card">
+                <h2>{{ item.title }}</h2>
+                <p><strong>{{ item.value }}</strong></p>
+            </div>
+        </div>
+        <div class="connect-details">
+            <h2>Connect</h2>
+            <div class="social-media">
+                <a href="https://github.com/gouthamraj020102" aria-label="GitHub" target="_blank" rel="noopener noreferrer">
+                    <i class="fa-brands fa-github"></i>
+                </a>
+                <a href="https://www.linkedin.com/in/gowtham-raju-manapuram" aria-label="LinkedIn" target="_blank" rel="noopener noreferrer">
+                    <i class="fa-brands fa-linkedin-in"></i>
+                </a>
+                <a href="mailto:gouthamraj020102@gmail.com" aria-label="Email"><i class="fa-regular fa-envelope"></i></a>
+                <a href="https://wa.me/919491572178" aria-label="Whatsapp" target="_blank" rel="noopener noreferrer">
+                    <i class="fa-brands fa-whatsapp"></i>
+                </a>
+                <a href="https://www.instagram.com/goutham._.patnaik?igsh=MXI3eGUxdnhpb3NwOQ%3D%3D&utm_source=qr" aria-label="Instagram" target="_blank" rel="noopener noreferrer">
+                    <i class="fa-brands fa-instagram"></i>
+                </a>
+                <a href="https://www.facebook.com/share/1Ep1g4dLCi/?mibextid=wwXIfr" aria-label="Facebook" target="_blank" rel="noopener noreferrer">
+                    <i class="fa-brands fa-facebook-f"></i>
+                </a>
+            </div>
+        </div>
+    </div>
+</div>
