@@ -1,0 +1,115 @@
+.home-page {
+    position: fixed;
+    inset: 70px 0 0 0;
+    background: #1a1a1a;
+    display: flex;
+}
+
+.profile {
+    display: flex;
+    align-items: center;
+    padding: 8rem;
+}
+
+.profile-img {
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    object-fit: cover;
+    transform: scale(1.1);
+    margin-top: -7rem;
+}
+
+.intro {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.intro h1 {
+    font-size: 2.5rem;
+    margin-bottom: 0.5rem;
+    color: #ccc;
+}
+
+.highlight-name {
+    color: #007bff;
+    font-weight: 700;
+}
+
+.intro {
+    font-size: 1.2rem;
+    color: #ccc;
+}
+
+.skills-container {
+    display: grid;
+    grid-template-columns: repeat(4, auto);
+    justify-content: start;
+    gap: 1rem;
+    margin-top: 1rem;
+}
+
+.skill-card {
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    background: rgba(30, 30, 30, 0.85);
+    border-radius: 30px;
+    text-align: center;
+    width: fit-content;
+    padding: 0rem 1rem;
+    font-size: 1rem;
+}
+
+.details-container {
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    justify-content: start;
+    gap: 1rem;
+    margin-top: 2rem;
+}
+
+.detail-card {
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    background: rgba(40, 40, 40, 0.8);
+    border-radius: 15px;
+    text-align: center;
+    width: fit-content;
+    padding: 1.4rem;
+}
+
+.detail-card h2 {
+    margin: 0 0 0.5rem 0;
+    font-size: 1.1rem;
+    color: #fff;
+}
+
+.detail-card p {
+    margin: 0;
+    font-size: 0.9rem;
+}
+
+.connect-details {
+    text-align: center;
+    margin-top: 4rem;
+}
+
+.connect-details h1 {
+    margin-bottom: 1rem;
+    font-size: 1.6rem;
+}
+
+.social-media {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    font-size: 1.5rem;
+}
+
+.social-media i {
+    color: #ccc;
+}
+
+.social-media i:hover {
+    color: #2196f3;
+    cursor: pointer;
+}
