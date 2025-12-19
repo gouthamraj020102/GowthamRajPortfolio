@@ -5,17 +5,21 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { NavbarComponent } from './navbar/navbar.component';
 import { HomeComponent } from './home/home.component';
+import { SkillsComponent } from './skills/skills.component';
+import { TechnologyNamePipe } from "./shared/pipes/technology-name.pipe";
 
 @NgModule({
   declarations: [
     AppComponent,
     HomeComponent,
-    NavbarComponent
+    NavbarComponent,
+    SkillsComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
-  ],
+    AppRoutingModule,
+    TechnologyNamePipe
+],
   providers: [],
   bootstrap: [AppComponent]
 })

@@ -46,11 +46,27 @@
     color: #fff;
     font-weight: 500;
     transition: color 0.3s ease;
+    position: relative;
+    padding-bottom: 6px;
 }
 
-.nav-links li a:hover,
-.nav-links li a.active {
+.nav-links li a:hover {
     color: #2196f3;
+}
+
+.nav-links li a.active {
+    color: #0d47a1;
+}
+
+.nav-links li a.active::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 70%;
+    height: 1.3px;
+    background: #0d47a1;
 }
 
 @keyframes blinkZoom {

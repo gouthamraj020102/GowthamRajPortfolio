@@ -1,0 +1,42 @@
+.intro {
+    padding-top: 20px;
+    padding-left: 50px;
+}
+
+.title {
+    color: #64b5f6;
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+.description {
+    color: #ccc;
+    font-size: 0.90rem;
+    margin-top: 5px;
+    letter-spacing: 0.3px;
+}
+
+.toggle-btn {
+    padding: 0.4rem 0.6rem;
+    border-radius: 3px;
+    border: none;
+    background: #4B0082;
+    color: #fff;
+    cursor: pointer;
+    position: fixed;
+    top: 100px;
+    right: 30px;
+}
+
+.toggle-btn:hover {
+    background: #37005A;
+}
+
+.signature {
+    position: fixed;
+    bottom: 25px;
+    left: 50%;
+    transform: translateX(-50%);
+    color: #aaa;
+    font-size: 0.85rem;
+}

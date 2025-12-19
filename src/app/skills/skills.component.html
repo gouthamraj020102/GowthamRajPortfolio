@@ -1,0 +1,16 @@
+<div class="skills-page">
+    <div class="intro">
+        <div class="title">My Skills</div>
+        <div class="description">
+            ✨ Technical expertise blended with creativity — explore my core competencies below.
+        </div>
+    </div>
+
+    <button (click)="toggleView()" class="toggle-btn">
+        {{ showListView ? 'Bubble View' : 'List View' }}
+    </button>
+
+    <div class="signature" *ngIf="showListView">
+        &copy; 2025 Gowtham Manapuram &mdash; Built with Angular
+    </div>
+</div>
